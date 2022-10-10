@@ -1,0 +1,331 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+/* Global Css */
+body {
+  font-family: "Lato", sans-serif;
+  color: #999999;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+}
+
+/* Header Section */
+header {
+  padding: 30px 0;
+  background-color: #f6f9f9;
+}
+/* Header Section End */
+
+/* Banner Part Start */
+.banner-part {
+  background: url(../images//banner.png) no-repeat center top;
+  background-size: cover;
+  padding: 250px 0 72px;
+}
+.banner-part h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 130px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.banner-part .underline {
+  background-color: #15a4fa;
+  height: 2px;
+  width: 47%;
+  margin: 0 auto 25px;
+}
+.banner-part p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.banner-part button {
+  background: transparent;
+  border-color: #15a4fa;
+  font-size: 18px;
+  padding: 10px 40px;
+  color: #fff;
+  display: block;
+  margin: 75px auto 175px;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.banner-part button:hover {
+  background: #15a4fa;
+}
+.banner-part i {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+}
+/* Banner Part End */
+.about-part {
+  padding: 75px 0;
+  background-color: #f6f9f9;
+  text-align: center;
+}
+.about-part h2 {
+  color: #2d3950;
+  font-size: 40px;
+  font-weight: 500;
+}
+.about-part p {
+  width: 850px;
+  margin: 0 auto;
+  padding: 10px 0;
+  color: #a0a0a0;
+}
+/* About Part Start */
+
+/* Feature Part Start */
+.feature-part {
+  padding: 75px 0;
+  text-align: center;
+}
+.feature-part h3 {
+  padding: 35px 0 10px 0;
+  color: #2d3950;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.feature-part p {
+  padding: 0 45px;
+}
+/* Feature Part End */
+
+/* Gallery Heading Part Start */
+.gallery-heading-part {
+  text-align: center;
+  background-color: #f6f9f9;
+  padding: 75px 0;
+}
+.gallery-heading-part h2 {
+  color: #2d3950;
+  font-size: 35px;
+}
+/* Gallery Heading Part End */
+
+/* Gallery Part Start */
+.g-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.g-img {
+  width: 100%;
+}
+.g-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  text-align: center;
+  background-color: rgba(44, 172, 247, 0);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.g-hover ul li {
+  display: inline;
+  margin: 0 5px;
+}
+.g-hover ul {
+  margin-top: 30%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.g-hover ul li a i {
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  text-align: center;
+  line-height: 45px;
+}
+.g-item:hover .g-hover {
+  background-color: rgba(44, 172, 247, 0.7);
+  left: 0;
+}
+.g-item:hover .g-hover ul {
+  opacity: 1;
+}
+/* Gallery Part End */
+
+/* About-2 Part Start */
+.about-2 {
+  background: url(../images/about-2-banner.png) no-repeat center top;
+  background-size: cover;
+  padding: 80px 0 70px;
+  text-align: center;
+}
+.about-2 h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.about-2 .form-control {
+  background-color: transparent;
+  border: 2px solid #999999;
+  padding: 0 10px;
+  color: #fff;
+  outline: none;
+  padding: 14px 15px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.about-2 .form-btn {
+  background: transparent;
+  border-color: #15a4fa;
+  font-size: 18px;
+  padding: 10px 50px;
+  color: #fff;
+  float: right;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+.about-2 .form-btn:hover {
+  background: #15a4fa;
+}
+.about-2 .custom-checkbox {
+  display: inline-block;
+  margin-top: 12px;
+  float: left;
+}
+/* About-2 Part End */
+/* Footer Part Start */
+footer {
+  background: #f9f9f9;
+  padding: 20px 0;
+}
+footer .social-media {
+  text-align: right;
+}
+
+footer .social-media ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 3px;
+}
+footer .social-media ul li a .fa-brands {
+  width: 40px;
+  height: 40px;
+  background: #15a4fa;
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  font-size: 18px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+/* Footer Part End */
+
+/* Mobile Device Responsive */
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .about-part p {
+    width: 85%;
+  }
+  .banner-part h1 {
+    font-size: 60px;
+  }
+  .banner-part {
+    padding: 80px 0 0px;
+  }
+  .banner-part .underline {
+    width: 70%;
+  }
+  .banner-part p {
+    font-size: 16px;
+  }
+  .banner-part button {
+    font-size: 16px;
+    padding: 10px 30px;
+    margin: 30px auto 100px;
+  }
+  .banner-part i {
+    margin-bottom: 10px;
+  }
+  header {
+    padding: 25px 0;
+  }
+  header a img {
+    width: 34%;
+  }
+  .about-part {
+    padding: 35px 0;
+  }
+  .about-part h2 {
+    font-size: 35px;
+  }
+  .feature-part {
+    padding: 30px 0;
+  }
+  .feature-part h3 {
+    padding: 12px 0 0px 0;
+    font-size: 20px;
+  }
+  .feature-part p {
+    padding: 0px 70px;
+    font-size: 15px;
+  }
+  .feature-2 {
+    margin-top: 15px;
+  }
+  .feature-3 {
+    margin-top: 15px;
+  }
+  .gallery-heading-part {
+    padding: 25px 0;
+  }
+  .about-2 .form-btn {
+    font-size: 15px;
+    padding: 10px 40px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .social-media {
+    text-align: center;
+  }
+}
